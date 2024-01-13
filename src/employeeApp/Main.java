@@ -13,6 +13,18 @@ public class Main
     private static void workWithData ()
     {
 
+        Healthplan gold = new Healthplan(2,"gold",Plan.AYLIK);
+        Healthplan silver = new Healthplan(3,"silver",Plan.GUNLUK);
+
+        System.out.println(gold);
+        System.out.println(silver);
+
+        Employee deneme1 = new Employee(1,"Alex","alex@mail.com","123456", new String[]{"A","B"});
+
+       deneme1.addHealthplan(0,"D");
+        deneme1.addHealthplan(3,"K");
+
+
     }
 
     /**
